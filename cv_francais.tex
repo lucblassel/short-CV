@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[11pt, a5paper, landscape]{awesome-cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -31,7 +31,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-darknight}
+\colorlet{awesome}{awesome-red}
 
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{5E6D6E}
@@ -58,16 +58,16 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{portrait_cropped.png}
 \name{Luc}{Blassel}
-\position{Apprentissage automatique {\enskip\cdotp\enskip} Bioinformatique}
-\address{Paris\quad FRANCE}
+% \position{Apprentissage automatique {\enskip\cdotp\enskip} Bioinformatique}
+% \address{Paris\quad FRANCE}
 
-\mobile{+33~6~59~68~91~01}
-\email{luc.blassel@gmail.com}
-\homepage{www.lucblassel.com}
+% \mobile{+33~6~59~68~91~01}
+\email{luc.blassel@pasteur.fr}
+% \homepage{www.lucblassel.com}
 \github{lucblassel}
 \linkedin{luc-blassel}
 % \googlescholar{googlescholar-id}{name-to-display}
-\extrainfo{nationalité Française et Américaine}
+% \extrainfo{nationalité Française et Américaine}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -78,19 +78,19 @@
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {Luc Blassel \quad\cdotp\quad Curriculum Vitae}
-  {\thepage}
+% \makecvfooter
+%   {\today}
+%   {Luc Blassel \quad\cdotp\quad Curriculum Vitae}
+%   {\thepage}
 
-
+  \hypersetup{urlbordercolor=lightgray,pdfborderstyle={/S/U/W 1}}
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv_francais/education.tex}
 \input{cv_francais/experience.tex}
-\input{cv_francais/languages.tex}
+\input{cv_francais/education.tex}
+% \input{cv_francais/languages.tex}
 
 
 %-------------------------------------------------------------------------------

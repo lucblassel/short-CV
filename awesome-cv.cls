@@ -81,8 +81,9 @@
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks, unicode]{hyperref}
-\hypersetup{%
+\RequirePackage[hidelinks, unicode, linkbordercolor={1 0 0}]{hyperref}
+
+\hypersetup{%,
   pdftitle={},
   pdfauthor={},
   pdfsubject={},
@@ -145,6 +146,7 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
+\definecolor{awesome-darkblue}{HTML}{425A8A}
 \colorlet{awesome}{awesome-red}
 
 % Boolean value to switch section color highlighting
